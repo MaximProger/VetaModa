@@ -11,6 +11,7 @@
 	<meta name="viewport" content="width=device-width">
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
 	<!-- Fontawesome -->
 	<script src="https://kit.fontawesome.com/41064ceb63.js"></script>
 	<!-- Bootstrap -->
@@ -53,6 +54,10 @@
 
 	</header>
 
+	<section class="main__info">
+		<h1 class="main__title"><span>VETA</span> - магазин модной женской одежды от <span>50</span> до <span>74</span> размера</h1>
+	</section>
+
 	<div class="slider mt-4">
 		<div class="container">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -84,242 +89,67 @@
 		</div>
 	</div>
 
+	<div class="section imfo">
+		<h2 class="info__title">Новое поступление  весенних блузок. <br>
+			Джинсы (Турция)</h2>
+	</div>
+
+
 	<div class="product mt-4">
 		<div class="container">
-			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<ul class="nav nav-pills">
 				<li class="nav-item">
-					<a class="nav-link active" id="1" data-toggle="tab" href="#bluzki" role="tab" aria-controls="home"
+					<a class="nav-link" id="1" data-toggle="tab" href="./bluzki.html" role="tab" aria-controls="home"
 						aria-selected="true">Блузки</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="2" data-toggle="tab" href="#rubashki" role="tab" aria-controls="rubashki"
+					<a class="nav-link" id="2" data-toggle="tab" href="./rubashki.html" role="tab" aria-controls="rubashki"
 						aria-selected="false">Рубашки</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="3" data-toggle="tab" href="#tuniki" role="tab" aria-controls="tuniki"
+					<a class="nav-link" id="3" data-toggle="tab" href="./tuniki.html" role="tab" aria-controls="tuniki"
 						aria-selected="false">Туники</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="4" data-toggle="tab" href="#dzhinsi" role="tab" aria-controls="dzhinsi"
+					<a class="nav-link" id="4" data-toggle="tab" href="./dzinsi.html" role="tab" aria-controls="dzhinsi"
 						aria-selected="false">Джинсы</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="5" data-toggle="tab" href="#bruki" role="tab" aria-controls="bruki"
+					<a class="nav-link" id="5" data-toggle="tab" href="./bruki.html" role="tab" aria-controls="bruki"
 						aria-selected="false">Брюки</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="6" data-toggle="tab" href="#platya" role="tab" aria-controls="platya"
+					<a class="nav-link" id="6" data-toggle="tab" href="./platya.html" role="tab" aria-controls="platya"
 						aria-selected="false">Платья</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="7" data-toggle="tab" href="#ubki" role="tab" aria-controls="ubki"
+					<a class="nav-link" id="7" data-toggle="tab" href="./ubki.html" role="tab" aria-controls="ubki"
 						aria-selected="false">Юбки</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="8" data-toggle="tab" href="#verh_odezd" role="tab"
+					<a class="nav-link" id="8" data-toggle="tab" href="./verh_odezd.html" role="tab"
 						aria-controls="verh_odezd" aria-selected="false">Верхняя одежда</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="9" data-toggle="tab" href="#kostum" role="tab" aria-controls="kostum"
+					<a class="nav-link" id="9" data-toggle="tab" href="./kostumi.html" role="tab" aria-controls="kostum"
 						aria-selected="false">Костюмы</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="10" data-toggle="tab" href="#dzemper" role="tab" aria-controls="dzemper"
+					<a class="nav-link" id="10" data-toggle="tab" href="./dzemper.html" role="tab" aria-controls="dzemper"
 						aria-selected="false">Джемпер</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="11" data-toggle="tab" href="#belyo" role="tab" aria-controls="belyo"
+					<a class="nav-link" id="11" data-toggle="tab" href="./belyo.html" role="tab" aria-controls="belyo"
 						aria-selected="false">Белье</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="12" data-toggle="tab" href="#sumki" role="tab" aria-controls="sumki"
+					<a class="nav-link" id="12" data-toggle="tab" href="./sumki.html" role="tab" aria-controls="sumki"
 						aria-selected="false">Сумки</a>
 				</li>
-			</ul>
-			<div class="tab-content" id="myTabContent">
-				<div class="tab-pane fade show active" id="bluzki" role="tabpanel" aria-labelledby="1">
-					<div class="card__wrapper">
-
-						<div class="card__line row mt-3 flex-nowrap">
-							<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-1.jpg" class="card-img" alt="Bluzka 1"
-											data-toggle="modal" data-target="#modalBluzka1">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2804133-08</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">75 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-2.jpg" class="card-img" alt="Bluzka 2"
-											data-toggle="modal" data-target="#modalBluzka2">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2825408-38</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">105 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="card mb-3 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-3.jpg" class="card-img" alt="Bluzka 3"
-											data-toggle="modal" data-target="#modalBluzka3">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2854272-08</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">65 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card__line row mt-3 flex-nowrap">
-							<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-1.jpg" class="card-img" alt="Bluzka 1"
-											data-toggle="modal" data-target="#modalBluzka1">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2804133-08</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">75 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-2.jpg" class="card-img" alt="Bluzka 2"
-											data-toggle="modal" data-target="#modalBluzka2">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2825408-38</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">105 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="card mb-3 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-3.jpg" class="card-img" alt="Bluzka 3"
-											data-toggle="modal" data-target="#modalBluzka3">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2854272-08</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">65 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card__line row mt-3 flex-nowrap">
-							<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-1.jpg" class="card-img" alt="Bluzka 1"
-											data-toggle="modal" data-target="#modalBluzka1">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2804133-08</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">75 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-2.jpg" class="card-img" alt="Bluzka 2"
-											data-toggle="modal" data-target="#modalBluzka2">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2825408-38</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">105 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="card mb-3 col-4" style="max-width: 540px;">
-								<div class="row no-gutters">
-									<div class="col-md-5">
-										<img src="./img/bluzka-3.jpg" class="card-img" alt="Bluzka 3"
-											data-toggle="modal" data-target="#modalBluzka3">
-									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<span class="card__flag active">New</span>
-											<h5 class="card-title">Блузка артикул: <br>2854272-08</h5>
-											<p class="card-text"><b>Описание товара:</b> Состав:95% хлопок 5% эластан
-											</p>
-											<p class="card-text"><b>Цена:</b> <span class="card__price">65 <i
-														class="fas fa-ruble-sign"></i></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="tab-pane fade" id="rubashki" role="tabpanel" aria-labelledby="2">
+			  </ul>
+			<div id="myTabContent">
+				<h4 class="mt-3 mb-3">Новое поступление товаров:</h4>
+				<div class="category__content">
 					<div class="card__line row mt-3 flex-nowrap">
 						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
 							<div class="row no-gutters">
@@ -334,715 +164,6 @@
 										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
 											эластан 5%</p>
 										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="tuniki" role="tabpanel" aria-labelledby="3">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/tunika-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Туника артикул: <br>2804262-07</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 60% хлопок, 40% вискоза</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">70 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="dzhinsi" role="tabpanel" aria-labelledby="4">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzinsi-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Джинсы артикул : <br>MS 70163</h5>
-										<p class="card-text"><b>Описание товара:</b> Торговая марка :Feimailis</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">108 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzinsi-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Джинсы артикул : <br>MS 70163</h5>
-										<p class="card-text"><b>Описание товара:</b> Торговая марка :Feimailis</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">108 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzinsi-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Джинсы артикул : <br>MS 70163</h5>
-										<p class="card-text"><b>Описание товара:</b> Торговая марка :Feimailis</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">108 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzinsi-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Джинсы артикул : <br>MS 70163</h5>
-										<p class="card-text"><b>Описание товара:</b> Торговая марка :Feimailis</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">108 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzinsi-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Джинсы артикул : <br>MS 70163</h5>
-										<p class="card-text"><b>Описание товара:</b> Торговая марка :Feimailis</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">108 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzinsi-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Джинсы артикул : <br>MS 70163</h5>
-										<p class="card-text"><b>Описание товара:</b> Торговая марка :Feimailis</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">108 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="bruki" role="tabpanel" aria-labelledby="5">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="tab-pane fade" id="platya" role="tabpanel" aria-labelledby="6">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/platie-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Платье артикул: <br>2921197-53</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 75% лён 25% вискоза
-
-
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">12 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/platie-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Платье артикул: <br>2921197-53</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 75% лён 25% вискоза
-
-
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">12 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/platie-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Платье артикул: <br>2921197-53</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 75% лён 25% вискоза
-
-
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">12 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="tab-pane fade" id="ubki" role="tabpanel" aria-labelledby="7">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
 													class="fas fa-ruble-sign"></i></span></p>
 									</div>
 								</div>
@@ -1069,385 +190,39 @@
 							</div>
 						</div>
 
-
 						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
 							<div class="row no-gutters">
 								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
 										data-target="#modal">
 								</div>
 								<div class="col-md-7">
 									<div class="card-body">
 										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
+										<h5 class="card-title">Брюки артикул: <br>3088</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
+											эластан 8%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
 													class="fas fa-ruble-sign"></i></span></p>
 									</div>
 								</div>
 							</div>
 						</div>
-
 					</div>
 					<div class="card__line row mt-3 flex-nowrap">
 						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
 							<div class="row no-gutters">
 								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
 										data-target="#modal">
 								</div>
 								<div class="col-md-7">
 									<div class="card-body">
 										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="tab-pane fade" id="verh_odezd" role="tabpanel" aria-labelledby="8">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ver_odez-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Жакет артикул: <br>2906511-52</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав: 49% хлопок 33% полиамид 14%
-											вискоза 4% эластан
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">130 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<div class="tab-pane fade" id="kostum" role="tabpanel" aria-labelledby="9">
-					<p class="mt-3">Нет товаров в данной категории</p>
-				</div>
-				<div class="tab-pane fade" id="dzemper" role="tabpanel" aria-labelledby="10">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzemper-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Джемпер: <br>1136</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 64% акрил 32%
-											эластан 4%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">99 <i
+										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
+											эластан 5%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
 													class="fas fa-ruble-sign"></i></span></p>
 									</div>
 								</div>
@@ -1476,47 +251,39 @@
 							</div>
 						</div>
 
-
 						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
 							<div class="row no-gutters">
 								<div class="col-md-5">
-									<img src="./img/dzemper-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
 										data-target="#modal">
 								</div>
 								<div class="col-md-7">
 									<div class="card-body">
 										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Джемпер: <br>1136</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 64% акрил 32%
-											эластан 4%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">99 <i
+										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
+											эластан 5%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
 													class="fas fa-ruble-sign"></i></span></p>
 									</div>
 								</div>
 							</div>
 						</div>
-
 					</div>
 					<div class="card__line row mt-3 flex-nowrap">
 						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
 							<div class="row no-gutters">
 								<div class="col-md-5">
-									<img src="./img/dzemper-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
 										data-target="#modal">
 								</div>
 								<div class="col-md-7">
 									<div class="card-body">
 										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Джемпер: <br>1136</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 64% акрил 32%
-											эластан 4%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">99 <i
+										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
+											эластан 5%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
 													class="fas fa-ruble-sign"></i></span></p>
 									</div>
 								</div>
@@ -1545,36 +312,25 @@
 							</div>
 						</div>
 
-
 						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
 							<div class="row no-gutters">
 								<div class="col-md-5">
-									<img src="./img/dzemper-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
 										data-target="#modal">
 								</div>
 								<div class="col-md-7">
 									<div class="card-body">
 										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Джемпер: <br>1136</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 64% акрил 32%
-											эластан 4%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">99 <i
+										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
+											эластан 5%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
 													class="fas fa-ruble-sign"></i></span></p>
 									</div>
 								</div>
 							</div>
 						</div>
-
 					</div>
-				</div>
-				<div class="tab-pane fade" id="belyo" role="tabpanel" aria-labelledby="11">
-					<p class="mt-3">Нет товаров в данной категории</p>
-				</div>
-				<div class="tab-pane fade" id="sumki" role="tabpanel" aria-labelledby="12">
-					<p class="mt-3">Нет товаров в данной категории</p>
 				</div>
 			</div>
 		</div>
