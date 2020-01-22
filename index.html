@@ -27,7 +27,7 @@
 <body>
 
 	<header class="header">
-		<nav class="navbar navbar-expand-lg navbar-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 			<div class="container">
 				<a class="navbar-brand navbar__brand" href="./index.html">Veta</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -55,7 +55,7 @@
 	</header>
 
 	<section class="main__info">
-		<h1 class="main__title"><span>VETA</span> - магазин модной женской одежды от <span>50</span> до <span>74</span> размера</h1>
+		<h1 class="main__title">Магазин модной женской одежды от <span>50</span> до <span>74</span> размера</h1>
 	</section>
 
 	<div class="slider mt-4">
@@ -90,21 +90,21 @@
 	</div>
 
 	<div class="section imfo">
-		<h2 class="info__title">Новое поступление  весенних блузок. <br>
+		<h2 class="info__title active">Новое поступление весенних блузок. <br>
 			Джинсы (Турция)</h2>
 	</div>
 
 
 	<div class="product mt-4">
 		<div class="container">
-			<ul class="nav nav-pills">
+			<ul class="nav__desktop nav nav-pills">
 				<li class="nav-item">
 					<a class="nav-link" id="1" data-toggle="tab" href="./bluzki.html" role="tab" aria-controls="home"
 						aria-selected="true">Блузки</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="2" data-toggle="tab" href="./rubashki.html" role="tab" aria-controls="rubashki"
-						aria-selected="false">Рубашки</a>
+					<a class="nav-link" id="2" data-toggle="tab" href="./rubashki.html" role="tab"
+						aria-controls="rubashki" aria-selected="false">Рубашки</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" id="3" data-toggle="tab" href="./tuniki.html" role="tab" aria-controls="tuniki"
@@ -135,8 +135,8 @@
 						aria-selected="false">Костюмы</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="10" data-toggle="tab" href="./dzemper.html" role="tab" aria-controls="dzemper"
-						aria-selected="false">Джемпер</a>
+					<a class="nav-link" id="10" data-toggle="tab" href="./dzemper.html" role="tab"
+						aria-controls="dzemper" aria-selected="false">Джемпер</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" id="11" data-toggle="tab" href="./belyo.html" role="tab" aria-controls="belyo"
@@ -146,112 +146,31 @@
 					<a class="nav-link" id="12" data-toggle="tab" href="./sumki.html" role="tab" aria-controls="sumki"
 						aria-selected="false">Сумки</a>
 				</li>
-			  </ul>
+			</ul>
+			  <div class="nav__mobile btn-group">
+				<button type="button" class="btn btn-info dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Выбрать категорию
+				</button>
+				<div class="dropdown-menu dropdown-menu-right">
+					<a class="dropdown-item" href="./bluzki.html">Блузки</a>
+					<a class="dropdown-item" href="./rubashki.html">Рубашки</a>
+					<a class="dropdown-item" href="./tuniki.html">Рубашки</a>
+					<a class="dropdown-item" href="./dzinsi.html">Джинсы</a>
+					<a class="dropdown-item" href="./bruki.html">Брюки</a>
+					<a class="dropdown-item" href="./platya.html">Платья</a>
+					<a class="dropdown-item" href="./ubki.html">Юбки</a>
+					<a class="dropdown-item" href="./verh_odezd.html">Верхняя одежда</a>
+					<a class="dropdown-item" href="./kostumi.html">Костюмы</a>
+					<a class="dropdown-item" href="./dzemper.html">Джемпер</a>
+					<a class="dropdown-item" href="./belyo.html">Белье</a>
+					<a class="dropdown-item" href="./sumki.html">Сумки</a>
+				</div>
+			  </div>
 			<div id="myTabContent">
 				<h4 class="mt-3 mb-3">Новое поступление товаров:</h4>
-				<div class="category__content">
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/ubka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-											Юбка артикул: <br>4016</h5>
-										<p class="card-text"><b>Описание товара:</b> СОСТАВ: ВИСКОЗА 50%, ПОЛИЭСТЕР 50%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">85 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/bruki-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Брюки артикул: <br>3088</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 67% нейлон 25%
-											эластан 8%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">90 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
-											эластан 5%</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="./img/dzemper-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
-										data-target="#modal">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Джемпер: <br>1136</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 64% акрил 32%
-											эластан 4%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">99 <i
-													class="fas fa-ruble-sign"></i></span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
+				<div class="category__content row">
+					<div class="col-md-6 col-lg-6 col-xl-4">
+						<div class="card mb-3">
 							<div class="row no-gutters">
 								<div class="col-md-5">
 									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
@@ -270,8 +189,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="card__line row mt-3 flex-nowrap">
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
+
+					<div class="col-md-6 col-lg-6 col-xl-4">
+						<div class="card mb-3">
 							<div class="row no-gutters">
 								<div class="col-md-5">
 									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
@@ -289,30 +209,73 @@
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
+					<div class="col-md-6 col-lg-6 col-xl-4">
+						<div class="card mb-3">
 							<div class="row no-gutters">
 								<div class="col-md-5">
-									<img src="./img/dzemper-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
 										data-target="#modal">
 								</div>
 								<div class="col-md-7">
 									<div class="card-body">
 										<span class="card__flag active">New</span>
-										<h5 class="card-title">
-
-											Джемпер: <br>1136</h5>
-										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 64% акрил 32%
-											эластан 4%
-										</p>
-										<p class="card-text"><b>Цена:</b> <span class="card__price">99 <i
+										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
+											эластан 5%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
 													class="fas fa-ruble-sign"></i></span></p>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="card mb-3 mr-1 col-4" style="max-width: 540px;">
+					<div class="col-md-6 col-lg-6 col-xl-4">
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-5">
+									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+										data-target="#modal">
+								</div>
+								<div class="col-md-7">
+									<div class="card-body">
+										<span class="card__flag active">New</span>
+										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
+											эластан 5%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
+													class="fas fa-ruble-sign"></i></span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-6 col-xl-4">
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-5">
+									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
+										data-target="#modal">
+								</div>
+								<div class="col-md-7">
+									<div class="card-body">
+										<span class="card__flag active">New</span>
+										<h5 class="card-title">Рубашка артикул: <br>120104501</h5>
+										<p class="card-text"><b>Описание товара:</b> Состав:вискоза 85% тесил 10%
+											эластан 5%</p>
+										<p class="card-text"><b>Цена:</b> <span class="card__price">115 <i
+													class="fas fa-ruble-sign"></i></span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-6 col-xl-4">
+						<div class="card mb-3">
 							<div class="row no-gutters">
 								<div class="col-md-5">
 									<img src="./img/rubashka-1.jpg" class="card-img" alt="Bluzka 1" data-toggle="modal"
@@ -339,7 +302,7 @@
 	<footer class="footer mt-auto py-3">
 		<div class="container">
 			<div class="footer__inner row align-items-center">
-				<div class="footer__contact col-8">
+				<div class="footer__contact col">
 					<p>
 						© 2020 VETA<br>
 						Тел.: +375 (17) 392-91-04<br>
@@ -370,9 +333,9 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
+						<span aria-hidden="true">&times;</span>
 					</button>
-				  </div>
+				</div>
 				<div class="modal-body">
 					<img src="./img/bluzka-1.jpg" alt="Bluzka 1">
 				</div>
@@ -386,9 +349,9 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
+						<span aria-hidden="true">&times;</span>
 					</button>
-				  </div>
+				</div>
 				<div class="modal-body">
 					<img src="./img/bluzka-2.jpg" alt="Bluzka 2">
 				</div>
@@ -402,9 +365,9 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
+						<span aria-hidden="true">&times;</span>
 					</button>
-				  </div>
+				</div>
 				<div class="modal-body">
 					<img src="./img/bluzka-3.jpg" alt="Bluzka 3">
 				</div>
