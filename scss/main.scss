@@ -197,6 +197,12 @@ body {
 	}
 }
 
+.catalog__href {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
 .catalog__line {
   .card {
     cursor: pointer;
