@@ -10,6 +10,15 @@ body {
   color: $text;
 }
 
+.dropdown-menu.show {
+  z-index: 1031;
+
+}
+
+.sms__link {
+  font-family: 'Russo One', sans-serif;
+}
+
 .content {
   min-height: 800px;
 }
@@ -300,12 +309,4 @@ body {
   }
 }
 
-.dropdown-menu.show {
-  z-index: 1031;
 
-}
-
-.sms__link {
-  font-family: 'Russo One', sans-serif;
-  color: rgb(239, 241, 90) !important;
-}
